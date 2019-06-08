@@ -26,11 +26,13 @@
 // });
 
 // var input = Object.value("#mtitle");
-
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
 
 var api = "https://www.omdbapi.com/?t=";
 // var TITLE = "the terminator";
-var apiKey = "&apikey=trilogy";
+var apiKey = "&apikey=a5c61811";
 
 var input = $('#mtitle');
 
@@ -40,6 +42,8 @@ console.log($("#submit"))
 
 
 function movieSearch() {
+    event.preventDefault();
+
 var url = api + input.val() + apiKey;
 console.log(url);
 $.ajax({

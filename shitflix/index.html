@@ -16,36 +16,55 @@
 </head>
 <body>
 
-    <header> <h1>SH!tFlix</h1> <p>A Luke production</p></header>
+    <header> <img src="https://i.ibb.co/gTcNxwt/613b9777-0b7e-4678-9f71-5d6d5bf37cc8-200x200.png"> </header>
 
     <div id="topbar">
         <P id="instr">Type in a movie title</P>
         <form action="f-one">
-            Movie Title: <input type="text" value="TITLE" id="mtitle" size="30" maxlength="70">
+            <input type="text" placeholder="TITLE" id="mtitle" size="30" maxlength="70">
 
+            <button id="submit"> </button>
         </form>
         <br>
-        <button id="submit"> SEARCH </button>
+        
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th> TITLE </th>
+                    <th> YEAR MADE </th>
+                    <th> ACTORS </th>
+                    <th> RATINGS  </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- // ajax insert here -->
+                </tr>
+                <tr>
+                    <td>Clerks</td>	<td>1994</td>	<td>Brian O'Halloran, Jeff Anderson, Marilyn Ghigliotti, Lisa Spoonauer</td>
+                    <td>7.8/10</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 
 
-    <table>
-        <thead>
-            <tr>
-                <th> TITLE </th>
-                <th> YEAR MADE </th>
-                <th> ACTORS </th>
-                <th> RATINGS  </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <!-- // ajax insert here -->
-            </tr>
-        </tbody>
-    </table>
+    
+<footer>
+    <table id="social">
+                                           
+        <tr>
 
+           <td><a target="_blank" href="https://www.instagram.com/ooof_luke/"> <i class="fab fa-instagram"></i> </a></td>
+           <td><a target="_blank" href="https://github.com/lsimianer"> <i class="fab fa-github"></i>  </a></td>
+           <td><a target="_blank" href="https://www.linkedin.com/in/lukas-simianer-a34baab0/"> <i class="fab fa-linkedin"></i> </a></td>
+
+        </tr>
+        
+    </table>
+</footer>
 
 
 
