@@ -64,6 +64,7 @@ $.ajax({
     console.log(response);
     console.log(response.Ratings[0].Value);
 
+    // $('#m > tbody:last-child').append(tRow);
 
 });
 
